@@ -43,4 +43,15 @@
    - Applied log transformation to achieve stationarity and evaluated the transformed data for stationary and normality.
     - Utilized the best fit ARIMA parameters to make predictions for the stock prices of EXX5, IQQE, IUS.
 
+## Certifications
+
+- The Complete Oracle SQL Bootcamp(2022) from udemy
+- Oracle Certified Foundations Associate from Oracle
+- AWS Innovate Data Ediction from AWS
+- Linux Command Line BAsics from udemy
+- HTML Essential Training from LinkedIn
+
+## Personal Interests
+
+- Mandala Art, Dance
 
