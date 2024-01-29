@@ -32,5 +32,7 @@
    - Trained a custom convolutional neural network(CNN) and a trnasfer learning model based on DenseNet121 for image classification.
    - Demonstrated the ability to load, pre process, and predict on new images using the trained models.
 
+- **Text Summarization using NLP**
+   - 
 
 
