@@ -38,4 +38,9 @@
    - Employed the NetworkX library to build and analyze the sentence similairty graph for ranking and text summarization.
    - Demonstrated proficiency in natural language processing, algorithmic ranking and text summarization.
 
+- **Stock Price Forecasting using ARIMA model**
+   - Collected stock price data for symbols EXX5, IQQE, IUS from yahoo fiannce.
+   - Applied log transformation to achieve stationarity and evaluated the transformed data for stationary and normality.
+    - Utilized the best fit ARIMA parameters to make predictions for the stock prices of EXX5, IQQE, IUS.
+
 
