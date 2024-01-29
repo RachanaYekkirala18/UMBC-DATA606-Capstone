@@ -5,10 +5,10 @@
 ## Education
 
 - **Masters in Data Science**
-  - University of Maryland Baltimore County, 2024
+  - University of Maryland Baltimore County, 2024 , gpa:3.478
 
 - **Bachelors in Electrical and Communication Engineering**
-  - MLRIT, 2020
+  - MLRIT, 2020 , cgpa:7.99
 
 ## Work Experience
 
