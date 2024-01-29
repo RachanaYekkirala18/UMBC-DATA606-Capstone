@@ -32,7 +32,7 @@
    - Trained a custom convolutional neural network(CNN) and a trnasfer learning model based on DenseNet121 for image classification.
    - Demonstrated the ability to load, pre process, and predict on new images using the trained models.
 
-- **Text Summarization using NLP**
+- [**Text Summarization using NLP**](https://github.com/RachanaYekkirala18/Project/tree/main/Text%20Summarizer)
    - Developed a text summarization model using natural langusge processing techniques and graph algorithms.
    - Implemented sentence similarity computation based on cosine diatance and ranked the sentences using the PageRank algorithm.
    - Employed the NetworkX library to build and analyze the sentence similairty graph for ranking and text summarization.
