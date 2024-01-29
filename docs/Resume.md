@@ -7,7 +7,7 @@
 - **Masters in Data Science**
   - University of Maryland Baltimore County, 2024
 
-- **Bachelors in Electrical and Communication Engineering **
+- **Bachelors in Electrical and Communication Engineering**
   - MLRIT, 2020
 
 ## Work Experience
