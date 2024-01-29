@@ -8,7 +8,7 @@
   - University of Maryland Baltimore County, 2024 , **GPA:3.478**
 
 - **Bachelors in Electrical and Communication Engineering**
-  - MLRIT, 2020 , cgpa:7.99
+  - MLRIT, 2020 , **CGPA:7.99**
 
 ## Work Experience
 
