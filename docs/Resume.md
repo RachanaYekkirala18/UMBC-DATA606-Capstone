@@ -26,7 +26,7 @@
 
 ## Projects
 
-- **UBC Ovarian Cancer Detection**
+- [**UBC Ovarian Cancer Detection**](https://github.com/RachanaYekkirala18/Project/tree/main/Ubc_Ovarian_Cancer)
    - Developed a deep learning model for image classification using the keras framework.
    - Preprocessed and augmented the image data using the Image Data Generator to improve model generalization.
    - Trained a custom convolutional neural network(CNN) and a trnasfer learning model based on DenseNet121 for image classification.
