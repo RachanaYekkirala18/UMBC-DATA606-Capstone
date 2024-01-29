@@ -1,6 +1,6 @@
 # Yekkirala Venkata Rachana
 
-![Headshot](C:\Users\racha\OneDrive\Desktop\rachana\photo-min.jpg) 
+![Headshot](headshot.jpg) 
 
 ## Education
 
