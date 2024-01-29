@@ -1,6 +1,6 @@
 # Yekkirala Venkata Rachana
 
-![Headshot]["C:\Users\racha\OneDrive\Documents\GitHub\UMBC-DATA606-Capstone\docs\photo-min.jpg"] 
+![Headshot][C:\Users\racha\OneDrive\Documents\GitHub\UMBC-DATA606-Capstone\docs\photo-min.jpg] 
 
 ## Education
 
