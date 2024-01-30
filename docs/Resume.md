@@ -2,7 +2,7 @@
 
 ![Headshot](headshot.jpg) 
 
-*Contact*- 6673698226
+*Contact*- 6673698226 \
 *LinkedIn* - [Rachana](www.linkedin.com/in/yekkirala-venkata-rachana-4150881a9)
 
 ## Education
