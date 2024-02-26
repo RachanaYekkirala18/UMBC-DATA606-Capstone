@@ -1,0 +1,21 @@
+## 1. Predictive Analysis Of Article Virality Based On Titles
+
+- Predictive Analysis of Article Virality based on Titles
+- Prepared for UMBC Data Science Master Degree Capstone by Rachana Yekkirala under the guidance of Dr Chaojie (Jay) Wang
+- Author Name: Venkata Rachana Yekkirala
+- Linked In : [Linked In](www.linkedin.com/in/yekkirala-venkata-rachana-4150881a9)\
+- Github : [Github](https://github.com/RachanaYekkirala18)
+- PowerPoint presentation:
+
+## 2. Background
+
+- What is it about?
+
+- Why does it matter?
+
+- What are the research questions?
+
+## 3. Data
+
+
+
