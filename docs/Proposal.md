@@ -48,7 +48,7 @@ medium_categories (object): Categories of the article on Medium, listed in an ar
 
     retweet_count: To predict the number of retweets, or
     favorite_count: To predict the number of likes.
-    Additionally, you could derive a categorical variable indicating virality levels (e.g., "High", "Medium", "Low") based on these metrics.
+    Additionally, we can derive a categorical variable indicating virality levels (e.g., "High", "Medium", "Low") based on these metrics.
 
 - Feature/Predictor Variables
     text (Title): The main feature for predicting engagement would be the article title extracted from the text column. You might need to preprocess this text to extract only the title.
