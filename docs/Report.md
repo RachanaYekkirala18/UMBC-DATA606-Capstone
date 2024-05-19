@@ -38,8 +38,8 @@ The dataset is sourced from historical stock price records and trading data.
 Varies based on the dataset used; typically in the range of tens to hundreds of megabytes.
 
 ### Data Shape:
-- Number of Rows: Example - 1,000
-- Number of Columns: Example - 17
+- Number of Rows: 1,000 (example)
+- Number of Columns: 17
 
 ### Time Period:
 The dataset may cover a specific range of dates, such as from 2010 to 2020.
@@ -87,4 +87,44 @@ Potential features include `stock_id`, `seconds_in_bucket`, `imbalance_size`, `i
 
 ### Tidy Data:
 - Ensure each row represents one observation.
-- Ensure each column rep
+- Ensure each column represents one unique property of that entity.
+
+## Model Training
+
+### Models:
+Various models such as Linear Regression, Decision Trees, Random Forests, and Neural Networks can be used for predictive analytics.
+
+### Training Process:
+- Split the dataset into training and testing sets (e.g., 80/20 or 70/30).
+- Use Python packages such as scikit-learn, TensorFlow, etc.
+- Develop in environments like Jupyter Notebook, Google Colab, or GitHub Codespaces.
+
+### Performance Measurement:
+Use metrics like RMSE, MAE, and R2 score to evaluate model performance.
+
+## Application of the Trained Models
+
+### Web App Development:
+- Use Streamlit, Dash, or Flask to develop a web app for users to interact with the trained models.
+- Streamlit is recommended for its simplicity and ease of use.
+
+## Conclusion
+
+### Summary:
+The project involves analyzing stock data, building predictive models, and developing a web app for model interaction. Predictive models help in making informed investment decisions.
+
+### Limitations:
+Model accuracy may be affected by market volatility and unforeseen events. The model is as good as the data it is trained on.
+
+### Lessons Learned:
+- Importance of data quality and feature selection.
+- Challenges in model tuning and performance evaluation.
+
+### Future Research:
+- Incorporate additional data sources like economic indicators.
+- Explore advanced models like deep learning techniques.
+
+## References
+- scikit-learn documentation
+- Streamlit documentation
+- Research papers on stock price prediction
