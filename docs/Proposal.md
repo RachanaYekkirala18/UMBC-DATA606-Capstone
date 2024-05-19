@@ -7,50 +7,58 @@
 - Github : [Github](https://github.com/RachanaYekkirala18)
 - PowerPoint presentation:
 
-## 2. Background
+## Background
 
-- What is it about?
-    -The project is about using machine learning to predict the virality of articles based on their titles. It examines how certain features of a title, such as sentiment, length, and specific keywords, correlate with the article's engagement on social media platforms like Twitter and Medium.
+### What is it about?
+This project aims to analyze stock price data and build a predictive model to forecast future stock prices based on historical data.
 
-- Why does it matter?
-    -Understanding what makes an article go viral can significantly impact content creation strategies, enabling writers and publishers to craft titles that are more likely to attract attention and engagement. This can lead to increased readership, improved brand visibility, and higher content dissemination efficiency.
+### Why does it matter?
+Predicting stock prices is crucial for investors, traders, and financial analysts to make informed decisions, manage risks, and maximize returns.
 
-- Research Questions
-    -What title features correlate with higher retweets and likes? This question aims to identify specific characteristics of article titles that are associated with greater social media engagement.
+### Research Questions:
+- How can historical stock data be used to predict future stock prices?
+- Which features are most influential in predicting stock prices?
+- How accurate can our predictive model be?
 
-    -Can machine learning models accurately predict the engagement level (retweets and likes) of an article based on its title? This question explores the feasibility of applying predictive analytics to forecast how well an article will perform on social platforms based solely on its title.
+## Data
 
-## 3. Data
+### Data Sources:
+The dataset is sourced from historical stock price records and trading data.
 
-- Data Sources: The dataset is sourced from Twitter and Medium, focusing on FreeCodeCamp's articles shared on Twitter along with their corresponding engagement metrics and categories on Medium.
+### Data Size:
+Varies based on the dataset used; typically in the range of tens to hundreds of megabytes.
 
-- Data Size: Approximately 0.35 MB.
+### Data Shape:
+- Number of Rows: 52,37,980
+- Number of Columns: 17
 
-- Data Shape: The dataset contains 717 rows and 8 columns.
+### Time Period:
+The dataset may cover a specific range of dates, such as from 2010 to 2020.
 
-- Time Period: The dataset covers the period from November 26, 2017, to August 7, 2018.
+### What does each row represent?
+Each row represents a trading record for a specific stock at a particular time.
 
-- Row Representation: Each row represents a tweet related to an article published by FreeCodeCamp, including engagement metrics and article information.
+### Data Dictionary:
+- `stock_id`: Integer, Identifier for the stock
+- `date_id`: Integer, Date identifier
+- `seconds_in_bucket`: Integer, Time in seconds within a minute
+- `imbalance_size`: Float, Size of the order imbalance
+- `imbalance_buy_sell_flag`: Integer, Flag for buy/sell imbalance (0 or 1)
+- `reference_price`: Float, Reference price of the stock
+- `matched_size`: Float, Size of matched orders
+- `far_price`: Float, Far price
+- `near_price`: Float, Near price
+- `bid_price`: Float, Bid price
+- `bid_size`: Float, Bid size
+- `ask_price`: Float, Ask price
+- `ask_size`: Float, Ask size
+- `wap`: Float, Weighted average price
+- `time_id`: Integer, Time identifier
+- `row_id`: Integer, Row identifier
+- `currently_scored`: Integer, Scoring flag (0 or 1)
 
-- Data Dictionary
-id (int64): Unique identifier for each tweet.
-retweet_count (int64): Number of retweets the tweet received.
-favorite_count (int64): Number of likes (favorites) the tweet received.
-text (object): The text of the tweet, typically including the title of the article and a URL.
-created_at (datetime64[ns]): Timestamp when the tweet was posted.
-url (object): URL of the article on Medium (not displayed in the provided output but inferred from context).
-medium_claps (int64): Number of claps the article received on Medium.
-medium_categories (object): Categories of the article on Medium, listed in an array format.
+### Target Variable:
+The target variable for the ML model is `reference_price`.
 
-- Target/Label Variable
-
-    For a machine learning model focusing on predicting the virality of an article based on its title, the target variables could be either:
-
-    retweet_count: To predict the number of retweets, or
-    favorite_count: To predict the number of likes.
-    Additionally, we can derive a categorical variable indicating virality levels (e.g., "High", "Medium", "Low") based on these metrics.
-
-- Feature/Predictor Variables
-    text (Title): The main feature for predicting engagement would be the article title extracted from the text column. You might need to preprocess this text to extract only the title.
-    medium_categories: Categories could serve as additional features, assuming there might be correlations between certain topics and engagement levels.
-
+### Features/Predictors:
+Potential features include `stock_id`, `seconds_in_bucket`, `imbalance_size`, `imbalance_buy_sell_flag`, `matched_size`, `far_price`, `near_price`, `bid_price`, `bid_size`, `ask_price`, `ask_size`, `wap`.
