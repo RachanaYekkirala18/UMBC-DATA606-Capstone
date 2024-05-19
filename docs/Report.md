@@ -4,11 +4,11 @@
 
 **Project Title:** Stock Price Prediction
 
-**Prepared for:** UMBC Data Science Master Degree Capstone by Dr. Chaojie (Jay) Wang
+**Prepared for:** UMBC Data Science Master Degree Capstone by Dr. Chaojie Wang
 
-**Author Name:** Your Name
+**Author Name:** Yekkirala Venkata Rachana
 
-**GitHub Profile:** [Link to your GitHub profile](#)
+**GitHub Profile:** [https://github.com/RachanaYekkirala18](#)
 
 **LinkedIn Profile:** [Link to your LinkedIn profile](#)
 
@@ -38,7 +38,7 @@ The dataset is sourced from historical stock price records and trading data.
 Varies based on the dataset used; typically in the range of tens to hundreds of megabytes.
 
 ### Data Shape:
-- Number of Rows: 1,000 (example)
+- Number of Rows: 52,37,980
 - Number of Columns: 17
 
 ### Time Period:
@@ -92,12 +92,12 @@ Potential features include `stock_id`, `seconds_in_bucket`, `imbalance_size`, `i
 ## Model Training
 
 ### Models:
-Various models such as Linear Regression, Decision Trees, Random Forests, and Neural Networks can be used for predictive analytics.
+Various models such as Linear Regression, Decision Trees, Random Forests, and Neural Networks can be used for predictive analytics. I have chosen XGBoost Regressor, Cat Boost Regressor, LightGBM.
 
 ### Training Process:
 - Split the dataset into training and testing sets (e.g., 80/20 or 70/30).
 - Use Python packages such as scikit-learn, TensorFlow, etc.
-- Develop in environments like Jupyter Notebook, Google Colab, or GitHub Codespaces.
+- Develop in environments like Google Colab.
 
 ### Performance Measurement:
 Use metrics like RMSE, MAE, and R2 score to evaluate model performance.
