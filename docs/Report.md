@@ -95,7 +95,7 @@ Potential features include `stock_id`, `seconds_in_bucket`, `imbalance_size`, `i
 Various models such as Linear Regression, Decision Trees, Random Forests, and Neural Networks can be used for predictive analytics. I have chosen XGBoost Regressor, Cat Boost Regressor, LightGBM.
 
 ### Training Process:
-- Split the dataset into training and testing sets (e.g., 80/20 or 70/30).
+- Split the dataset into training and testing sets (80/20).
 - Use Python packages such as scikit-learn, TensorFlow, etc.
 - Develop in environments like Google Colab.
 
