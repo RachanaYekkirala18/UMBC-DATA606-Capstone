@@ -10,11 +10,11 @@
 
 **GitHub Profile:** [https://github.com/RachanaYekkirala18](#)
 
-**LinkedIn Profile:** [Link to your LinkedIn profile](#)
+**LinkedIn Profile:** [https://www.linkedin.com/in/yekkirala-venkata-rachana-4150881a9/](#)
 
-**PowerPoint Presentation File:** [Link to the presentation file you created earlier](#)
+**PowerPoint Presentation File:** [https://github.com/RachanaYekkirala18/UMBC-DATA606-Capstone/blob/main/docs/Optiver-Trading%20at%20the%20close.pptx](#)
 
-**YouTube Video:** [Link to your YouTube video](#)
+**YouTube Video:** [https://youtu.be/SOQIWVGLD5E](#)
 
 ## Background
 
